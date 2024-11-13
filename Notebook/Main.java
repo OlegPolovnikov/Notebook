@@ -17,7 +17,7 @@ public class Main {
             System.out.println("6. Удалить все записи из файла");
             System.out.println("7. Выйти");
             int choice = scanner.nextInt();
-            scanner.nextLine();//Consume newline
+            scanner.nextLine();
             switch (choice) {
                 case 1:
                     presenter.addNote();
